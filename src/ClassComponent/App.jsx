@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import News from "./News";
-import Test from "./Test";
 
 export default class App extends Component {
   constructor() {
@@ -74,7 +73,6 @@ export default class App extends Component {
           </Routes>
           <Footer />
         </BrowserRouter>
-        <Test />
       </>
     );
   }
